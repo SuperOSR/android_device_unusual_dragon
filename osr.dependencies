@@ -1,7 +1,7 @@
 [
   {
     "repository": "SuperOSR/android_device_unusual-common",
-    "target_path": "android/device/unusual/common",
+    "target_path": "device/unusual/common",
     "branch": "jb43"
   },
   {

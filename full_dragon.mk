@@ -30,7 +30,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 # This is where we'd set a backup provider if we had one
 #$(call inherit-product, device/sample/products/backup_overlay.mk)
 # Inherit from our device
-$(call inherit-product, device/softwinner/dragon/device.mk)
+$(call inherit-product, device/unusual/dragon/device.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_dragon

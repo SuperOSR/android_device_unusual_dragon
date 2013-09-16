@@ -13,12 +13,12 @@
 # limitations under the License.
 
 # Use the non-open-source part, if present
--include vendor/softwinner/dragon/BoardConfigVendor.mk
+-include vendor/unusual/dragon/BoardConfigVendor.mk
 
 # Use the part that is common between all allwinner
-include device/softwinner/common/BoardConfig.mk
+include device/unusual/common/BoardConfig.mk
 
-BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/softwinner/dragon/recovery_keys.c
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/unusual/dragon/recovery_keys.c
 
 TARGET_KERNEL_CONFIG := dragon_defconfig
 

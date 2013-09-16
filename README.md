@@ -1,2 +1,2 @@
-android_device_softwinner_dragon
+android_device_unusual_dragon
 ================================

@@ -8,7 +8,7 @@ TARGET_BOOTANIMATION_NAME := horizontal-1024x768
 $(call inherit-product, vendor/osr/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/softwinner/dragon/full_dragon.mk)
+$(call inherit-product, device/unusual/dragon/full_dragon.mk)
 
 # Inherit GAPPS
 #$(call inherit-product, vendor/google/essencial.mk)

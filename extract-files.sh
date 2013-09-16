@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VENDOR=softwinner
+VENDOR=unusual
 DEVICE=dragon
 
 BASE=../../../vendor/$VENDOR/$DEVICE/proprietary

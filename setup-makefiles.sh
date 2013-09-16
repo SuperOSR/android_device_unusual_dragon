@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VENDOR=softwinner
+VENDOR=unusual
 DEVICE=dragon
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk

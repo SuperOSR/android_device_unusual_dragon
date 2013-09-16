@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "SuperOSR/android_device_softwinner-common",
+    "target_path": "android/device/softwinner/common",
+    "branch": "jb43"
+  },
+  {
+    "repository": "SuperOSR/android_vendor_softwinner_dragon",
+    "target_path": "vendor/softwinner/dragon",
+    "branch": "jb43"
+  }
+]

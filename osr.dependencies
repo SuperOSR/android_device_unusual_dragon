@@ -8,5 +8,10 @@
     "repository": "SuperOSR/android_vendor_unusual_dragon",
     "target_path": "vendor/unusual/dragon",
     "branch": "jb43"
+  },
+  {
+    "repository": "blerfont/linux-allwinner",
+    "target_path": "kernel/unusual/common",
+    "branch": "allwinner-3.0"
   }
 ]

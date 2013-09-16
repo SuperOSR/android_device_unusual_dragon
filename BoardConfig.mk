@@ -16,7 +16,7 @@
 -include vendor/unusual/dragon/BoardConfigVendor.mk
 
 # Use the part that is common between all allwinner
-include device/unusual/common/BoardConfig.mk
+include device/unusual/common/BoardCommonConfig.mk
 
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/unusual/dragon/recovery_keys.c
 

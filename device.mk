@@ -26,7 +26,7 @@ DEVICE_PACKAGE_OVERLAYS += device/unusual/dragon/overlay
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
         frameworks/native/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
-        frameworks/native/data/etc/android.hardware.camera.autofocus.xml:system/etc/permissions/android.hardware.camera.autofocus.xml \
+        frameworks/native/data/etc/android.hardware.camera.autofocus.xml:system/etc/permissions/android.hardware.camera.autofocus.xml
 #
 
 PRODUCT_COPY_FILES += \
@@ -38,5 +38,7 @@ PRODUCT_COPY_FILES += \
 	device/unusual/dragon/config/Goodix-TS-board-3.idc:system/usr/idc/Goodix-TS-board-3.idc \
 	device/unusual/dragon/config/devicespecific.sh:recovery/root/sbin/devicespecific.sh \
 	device/unusual/dragon/goodix_touch_3F.ko:system/lib/goodix_touch_3F.ko \
-	device/unusual/dragon/goodix_touch_3F.ko:recovery/root/lib/goodix_touch_3F.ko \
+	device/unusual/dragon/goodix_touch_3F.ko:recovery/root/lib/goodix_touch_3F.ko
 #
+#Force Languages
+PRODUCT_LOCALES := ca_ES en_US en_GB fr_FR it_IT de_DE
